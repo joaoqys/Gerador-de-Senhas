@@ -29,6 +29,7 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 - Define a largura do elemento #security-indicator-bar com base na pontuação calculada.
 - Atribui classes CSS ao elemento #security-indicator-bar para representar visualmente a força da senha (crítica, aviso, segura).
 - Adiciona uma classe "completed" se a pontuação atingir 100%.
+  
 `calculateFontSize():`
 - Atribui classes CSS ao campo de entrada #password para ajustar o tamanho da fonte com base no comprimento da senha (extra pequeno, pequeno, médio) para melhor legibilidade.
   
