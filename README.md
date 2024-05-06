@@ -4,16 +4,17 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 
 ### Elementos HTML:
 
-#password: Campo de entrada onde a senha gerada é exibida.
-#uppercase-check: Caixa de seleção para incluir letras maiúsculas na senha.
-#number-check: Caixa de seleção para incluir números na senha.
-#symbol-check: Caixa de seleção para incluir símbolos na senha.
-#security-indicator-bar: Elemento que representa a força da senha visualmente (como uma barra).
-#password-length: Campo de entrada para especificar o comprimento desejado da senha.
-#password-length-text: Exibe o comprimento atual da senha.
-#copy-1 e #copy-2: Botões para copiar a senha gerada para a área de transferência.
-#renew: Botão para gerar uma nova senha.
-Funções JavaScript:
+- #password: Campo de entrada onde a senha gerada é exibida.
+- #uppercase-check: Caixa de seleção para incluir letras maiúsculas na senha.
+- #number-check: Caixa de seleção para incluir números na senha.
+- #symbol-check: Caixa de seleção para incluir símbolos na senha.
+- #security-indicator-bar: Elemento que representa a força da senha visualmente (como uma barra).
+- #password-length: Campo de entrada para especificar o comprimento desejado da senha.
+- #password-length-text: Exibe o comprimento atual da senha.
+- #copy-1 e #copy-2: Botões para copiar a senha gerada para a área de transferência.
+- #renew: Botão para gerar uma nova senha.
+  
+###Funções JavaScript:
 
 - generatePassword():
 - Define conjuntos de caracteres para letras minúsculas, letras maiúsculas, números e símbolos.
