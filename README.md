@@ -14,9 +14,9 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 - #copy-1 e #copy-2: Botões para copiar a senha gerada para a área de transferência.
 - #renew: Botão para gerar uma nova senha.
   
-###Funções JavaScript:
+### Funções JavaScript:
 
-- generatePassword():
+`generatePassword():`
 - Define conjuntos de caracteres para letras minúsculas, letras maiúsculas, números e símbolos.
 - Concatena conjuntos de caracteres com base nas seleções de caixa de seleção (maiúsculas, números, símbolos).
 - Gera uma senha aleatória com o comprimento especificado iterando através do conjunto de caracteres combinado.
@@ -30,10 +30,11 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 - Adiciona uma classe "completed" se a pontuação atingir 100%.
 - calculateFontSize():
 - Atribui classes CSS ao campo de entrada #password para ajustar o tamanho da fonte com base no comprimento da senha (extra pequeno, pequeno, médio) para melhor legibilidade.
-- copy():
+  
+`copy():`
 - Usa a função navigator.clipboard.writeText() para copiar o valor da senha para a área de transferência.
 - Eventos de Escuta:
-
+  
 - Entrada #password-length: Dispara generatePassword() em qualquer alteração para atualizar a senha com base no novo comprimento.
 - Caixas de seleção #uppercase-check, #number-check, #symbol-check: Disparam generatePassword() ao clicar para atualizar a senha com base na seleção do conjunto de caracteres.
 - Botões #copy-1 e #copy-2: Disparam copy() para copiar a senha gerada.
