@@ -21,14 +21,15 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 - Concatena conjuntos de caracteres com base nas seleções de caixa de seleção (maiúsculas, números, símbolos).
 - Gera uma senha aleatória com o comprimento especificado iterando através do conjunto de caracteres combinado.
 - Define o valor do campo de entrada #password para a senha gerada.
-- Chama calculateQuality() para atualizar o indicador de força da senha.
-- Chama calculateFontSize() para ajustar o tamanho da fonte com base no comprimento da senha.
-- calculateQuality():
+- Chama `calculateQuality()` para atualizar o indicador de força da senha.
+- Chama `calculateFontSize()` para ajustar o tamanho da fonte com base no comprimento da senha.
+  
+`calculateQuality():`
 - Calcula uma pontuação com base no comprimento da senha (25%), inclusão de maiúsculas (15%), inclusão de números (25%) e inclusão de símbolos (35%).
 - Define a largura do elemento #security-indicator-bar com base na pontuação calculada.
 - Atribui classes CSS ao elemento #security-indicator-bar para representar visualmente a força da senha (crítica, aviso, segura).
 - Adiciona uma classe "completed" se a pontuação atingir 100%.
-- calculateFontSize():
+`calculateFontSize():`
 - Atribui classes CSS ao campo de entrada #password para ajustar o tamanho da fonte com base no comprimento da senha (extra pequeno, pequeno, médio) para melhor legibilidade.
   
 `copy():`
