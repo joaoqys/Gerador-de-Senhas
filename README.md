@@ -42,5 +42,5 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 - Botões #copy-1 e #copy-2: Disparam copy() para copiar a senha gerada.
 - Botão #renew: Dispara generatePassword() para gerar uma nova senha.
 
-  
-![exemplo] gerador-de-senhas-peach.vercel.app
+
+ gerador-de-senhas-peach.vercel.app
