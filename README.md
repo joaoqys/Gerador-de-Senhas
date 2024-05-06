@@ -41,3 +41,6 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 - Caixas de seleção #uppercase-check, #number-check, #symbol-check: Disparam generatePassword() ao clicar para atualizar a senha com base na seleção do conjunto de caracteres.
 - Botões #copy-1 e #copy-2: Disparam copy() para copiar a senha gerada.
 - Botão #renew: Dispara generatePassword() para gerar uma nova senha.
+
+  
+![exemplo](gerador-de-senhas-peach.vercel.app)
