@@ -43,4 +43,4 @@ Este é um exemplo de código para um gerador de senhas com diversos recursos pa
 - Botão #renew: Dispara generatePassword() para gerar uma nova senha.
 
   
-![exemplo](gerador-de-senhas-peach.vercel.app)
+![exemplo] gerador-de-senhas-peach.vercel.app
