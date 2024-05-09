@@ -1,68 +1,10 @@
 body {
-    background-color: #f8fafd;
+    background-color: #171717;
     font-family: "Inter", sans- serif;
-    color: #252525;
+    color: #947901;
     padding: 2rem;
 }
 
-header {
-    background-color: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin: 0;
-    transition: background 0.2s linear;
-}
-
-body.dark {
-    background: #292c35;
-}
-
-.checkbox {
-    opacity: 0;
-    position: absolute;
-}
-
-.label {
-    background-color: #9b51e0;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 5px;
-    position: relative;
-    height: 26px;
-    width: 50px;
-    transform: scale(1.5);
-
-}
-
-
-.label .ball {
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 22px;
-    width: 22px;
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
-}
-
-.checkbox:checked+.label .ball {
-    transform: translateX(24px);
-}
-
-.fa-moon {
-    color: #f2c94c;
-}
-
-.fa-sun {
-    color: #ddd;
-}
 
 main {
     max-width: 780px;
@@ -82,11 +24,11 @@ main {
 
 .hero .subtitle {
     font-size: 1.125rem;
-    color: #828282;
+    color: #b69f39;
 }
 
 .box {
-    background: #fff;
+    background: #212121;
     box-shadow: 0 1px 2px rgba(132, 148, 165, 0.1);
     border-radius: 8px;
     margin-bottom: 3rem;
@@ -103,6 +45,8 @@ main {
 }
 
 .password .text input {
+    background: #212121;
+    color: #947901;
     font-family: "Inconsolata", serif;
     font-size: 3rem;
     border: none;
@@ -139,7 +83,7 @@ main {
 
 .security-indicator {
     height: 10px;
-    background-color: #ddd;
+    background-color: #cac9c9;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -174,7 +118,7 @@ main {
 }
 
 .customize .title {
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #6e6e6e;
     font-size: 1.75rem;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -184,7 +128,7 @@ main {
 .customize .actions {
     display: flex;
     gap: 3rem;
-    color: #828282;
+    color: #ffffff;
 }
 
 .customize .password-length {
@@ -214,7 +158,7 @@ main {
     width: 25px;
     height: 25px;
     border-radius: 25px;
-    background: #9b51e0;
+    background: #947901;
     cursor: pointer;
 }
 
@@ -222,7 +166,7 @@ main {
     width: 25px;
     height: 25px;
     border-radius: 25px;
-    background: #9b51e0;
+    background: #947901;
     cursor: pointer;
 }
 
@@ -261,7 +205,7 @@ main {
 }
 
 .checkbox-container input:checked~.checkmark {
-    background-color: #9b51e0;
+    background-color: #947901;
 }
 
 .checkbox-container .checkmark:after {
@@ -272,7 +216,7 @@ main {
     top: 5px;
     width: 5px;
     height: 13px;
-    border: solid white;
+    border: solid #212121;
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);
 }
@@ -286,9 +230,9 @@ main {
 }
 
 .submit button {
-    background-color: #bb6bd9;
+    background-color: #947901;
     font-size: 1.375rem;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -297,7 +241,8 @@ main {
 }
 
 .submit button:hover {
-    background-color: #9b51e0;
+    opacity: 0.7;
+    transition: opacity 0.2s;
 }
 
 @media only screen and (max-width: 480px) {
