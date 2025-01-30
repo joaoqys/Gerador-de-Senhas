@@ -6,7 +6,7 @@ const securityIndicatorBarEl = document.querySelector(
   "#security-indicator-bar"
 )
 
-let passwordLength = 3
+let passwordLength = 16
 
 function generatePassword() {
   let chars = "abcdefghjkmnpqrstuvwxyz"
